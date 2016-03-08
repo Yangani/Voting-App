@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "production": "webpack -p"
+    "test": "webpack -p"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Yangani/github-battle.git"
   },
-  "author": "",
+  "author": "Festus Kiprop",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Yangani/github-battle/issues"
