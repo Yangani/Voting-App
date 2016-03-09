@@ -1,6 +1,6 @@
 var HtmlWebpackPlugin = require("html-webpack-plugin");
 var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
-	template: __dirname + './app/index.html',
+	template: __dirname + "./app/index.html",
 	filename: 'index.html',
 	inject: 'body'
 })
@@ -18,5 +18,5 @@ module.exports = {
 			{test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"} //Run transformations on all js files and ignore node_modules
 		]
 	},
-	plugin: [HtmlWebpackPluginConfig]
+	plugins: [HtmlWebpackPluginConfig]
 }
