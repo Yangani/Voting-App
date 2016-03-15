@@ -1,5 +1,5 @@
 {
-  "name": "github-battle",
+  "name": "gh-battle",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,26 +7,18 @@
     "start": "webpack-dev-server",
     "test": "webpack -p"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Yangani/github-battle.git"
-  },
   "author": "Festus Kiprop",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Yangani/github-battle/issues"
-  },
-  "homepage": "https://github.com/Yangani/github-battle#readme",
   "dependencies": {
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
   },
   "devDependencies": {
-    "babel-core": "^6.7.0",
-    "babel-loader": "^6.2.4",
-    "babel-preset-react": "^6.5.0",
-    "html-webpack-plugin": "^2.9.0",
-    "webpack": "^1.12.14",
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-react": "^6.3.13",
+    "html-webpack-plugin": "^2.7.1",
+    "webpack": "^1.12.11",
     "webpack-dev-server": "^1.14.1"
   }
 }
