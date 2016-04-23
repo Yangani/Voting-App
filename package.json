@@ -6,6 +6,9 @@
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --recursive"
   },
+  "babel": {
+    "presets": ["es2015"]  //enable Babel's ES6/ES2015 language support. 
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Yangani/Voting-App.git"
